@@ -56,7 +56,7 @@ disp = metrics.ConfusionMatrixDisplay.from_predictions(
 )
 disp.figure_.suptitle("SVM Confusion Matrix")
 print(f"SVM Confusion matrix:\n{disp.confusion_matrix}\n")
-plt.show()
+plt.show(block=False)
 
 
 
